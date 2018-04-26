@@ -1,0 +1,12 @@
+<h1>Bienvenue dans la création d'utilisateurs!</h1>
+
+<p>Ici, tu vas pouvoir créer ton profil:</p>
+
+<form method="post">
+	<input type="hidden" name="authenticity_token" value="<%= form_authenticity_token %>">
+	Username: <br>
+	<input type="text" name="username"> <br>	
+	Raconte moi ta vie: <br>
+	<textarea name="bio"> </textarea> <br> 
+	<input type="submit" name="Envoyer"> 
+</form>
